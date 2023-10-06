@@ -2,6 +2,13 @@
     box-sizing: border-box;
   }
   
+  header {
+    background-image: url("../assets/img/02-hero-bg.jpg");
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
   body {
     margin: 0;
     padding: 0;
@@ -9,7 +16,11 @@
     line-height: 1.5;
   }
   
-  h1,
+  h1 {
+    color: grey;
+    font-size: 100px;
+    background-color: paleturquoise;
+  }
   h2,
   h3,
   h4,
