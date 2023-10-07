@@ -3,10 +3,29 @@
   }
   
   header {
-    background-image: url("../assets/img/02-hero-bg.jpg");
+    background-color: #12090d;
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    align-items: end;
+  }
+
+  h1 {
+    color: #1d2c49;
+    font-size: 40px;
+    background-color: #a49bea;
+    padding-left: 50px;
+  }
+
+  .nav-icons {
+    color: #f4cded;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+
+  .hero-banner {
+    display: flex;
+    position: absolute;
+    
   }
 
   body {
@@ -16,11 +35,7 @@
     line-height: 1.5;
   }
   
-  h1 {
-    color: grey;
-    font-size: 100px;
-    background-color: paleturquoise;
-  }
+  
   h2,
   h3,
   h4,
