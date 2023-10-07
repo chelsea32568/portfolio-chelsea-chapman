@@ -22,12 +22,36 @@
     padding-right: 20px;
   }
 
-  .hero-banner {
-    display: flex;
-    position: absolute;
-    
+  h2 {
+    color: #1d2c49;
+    font-size: 40px;
+    background-color: #a49bea;
+    padding-left: 50px;
   }
 
+  .hero-banner {
+    position: relative;
+    text-align: center;
+    background: #f4cded;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    margin: 20px;
+    background-color: #a49bea;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ 
+#banner {
+  max-height: 250px;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+
+}
   body {
     margin: 0;
     padding: 0;
