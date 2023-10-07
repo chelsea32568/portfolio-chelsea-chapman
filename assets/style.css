@@ -83,8 +83,51 @@
     max-width: 200px;
   }
 
-#page-grid {
+.page-grid {
   margin: 0px 5%;
   display: grid;
   max-height: 300px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "projectstitle horiseonproject horiseonproject"
+  "projectstitle ledproject portfolioproject"
+  "projectstitle pastelproject runbuddy"
+}
+
+#projectstitle {
+  grid-area: projectstitle;
+}
+
+#horiseonproject {
+  grid-area: horiseonproject;
+  background-image: url("../assets/img/horiseon.JPG");
+}
+
+#ledproject {
+  grid-area: ledproject;
+  background-image: url("../assets/img/LED\ wall.JPG");
+}
+
+#portfolioproject {
+  grid-area: portfolioproject;
+  background-image: url("../assets/img/project\ 2.JPG");
+}
+
+#pastelproject {
+  grid-area: pastelproject;
+  background-image: url("../assets/img/pastel\ puzzle.JPG");
+}
+
+#runbuddy {
+  grid-area: runbuddy;
+  background-image: url("../assets/img/run\ buddy.JPG");
+}
+
+.page-grid-area {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
 }
