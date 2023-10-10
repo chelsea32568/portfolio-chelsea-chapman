@@ -65,7 +65,7 @@
     color: #1d2c49;
     font-size: 50px;
     border-right: solid #1d2c49;
-    padding-right: 0px;
+    padding-right: 20px;
   }
 
   .page-wrapper {
@@ -136,16 +136,27 @@
 #information {
   grid-area: information;
 }
-.page-grid-area {
+.meimage {
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  align-items: center;
+  height: 400px;
+  width: 300px;
+  margin: auto;
+}
+
+.projectimage {
+  background-position: center;
+  background-size: cover;
   display: flex;
   position: relative;
   flex-direction: flex-end;
-  max-width: 300px;
-  max-height: 400px;
+  height: 100px;
+}
+
+.contactme {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 #horiseonheadline {
@@ -157,4 +168,5 @@
   padding: 25px;
   max-width: 50px;
   z-index: 100;
+}
 
